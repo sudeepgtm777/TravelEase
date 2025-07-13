@@ -1,0 +1,527 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9108",
+    "review": "Breathtaking landscapes, ancient monasteries, and peaceful villages-Mustang offers a magical blend of culture and adventure.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "review": "Mustang tour was unforgettable-stunning Himalayan views, rich Tibetan culture, and serene, untouched natural beauty throughout.",
+    "rating": 4.5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "review": "Magical landscapes, Mustang is a hidden gem worth every moment.",
+    "rating": 4,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c666c",
+    "review": "Dramatic landscapes, quiet villages, and rich Tibetan-influenced culture.",
+    "rating": 4,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c777c",
+    "review": "Mustang offers stunning views, with Marpha's charming apple orchards and Jomsom’s peaceful mountain setting adding to the magic.",
+    "rating": 5,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a35b614eb5c17645c910b",
+    "review": "Peaceful and beautiful city with calm lakes, stunning mountain views, and many fun activities.perfect place to relax and enjoy nature.",
+    "rating": 4,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910c",
+    "review": "Lovely city with lakes, mountain views, and great spots for adventure and relaxation.",
+    "rating": 5,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a368c14eb5c17645c910d",
+    "review": "Adventure here is thrilling, full of challenges, excitement, and unforgettable experiences",
+    "rating": 4.5,
+    "user": "5c8a201e2f8fb814b56fa186",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a36a014eb5c17645c910e",
+    "review": "Amazing memories from this wonderful place",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a36b714eb5c17645c910f",
+    "review": "Pokhara's adventure is full of excitement-from hiking hills to paragliding over lakes and exploring hidden caves.",
+    "rating": 4,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "review": "Lumbini is a peaceful place, rich in history and spirituality, perfect for quiet reflection and cultural exploration.",
+    "rating": 4,
+    "user": "5c8a21d02f8fb814b56fa189",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "review": "Calm, spiritual, and full of ancient history.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37cb14eb5c17645c9112",
+    "review": "Spiritual Beauty",
+    "rating": 3.5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "review": "Historic",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37f114eb5c17645c9114",
+    "review": " Ideal for peace and inner reflection.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a381714eb5c17645c9115",
+    "review": "Chitwan National Park is a thrilling wildlife sanctuary with rich forests, diverse animals, and exciting jungle safaris.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a382d14eb5c17645c9116",
+    "review": "Chitwan National Park offers amazing jungle safaris, wildlife sightings, and a close-up experience with nature.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a384114eb5c17645c9117",
+    "review": "Chitwan is a beautiful place known for its lush jungles, wildlife, and exciting adventure activities like safaris.",
+    "rating": 4.5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a385614eb5c17645c9118",
+    "review": "Amazing jungle safaris, wildlife sightings",
+    "rating": 3.5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a387214eb5c17645c9119",
+    "review": "Chitwan is wild, green, and full of exciting jungle adventures.",
+    "rating": 4,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a38ac14eb5c17645c911a",
+    "review": "Kathmandu is vibrant and full of culture, with ancient temples, busy streets, and rich heritage everywhere.",
+    "rating": 5,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a38c714eb5c17645c911b",
+    "review": "City of Temples",
+    "rating": 4,
+    "user": "5c8a201e2f8fb814b56fa186",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a38da14eb5c17645c911c",
+    "review": "ancient temples, busy streets, full of culture and history",
+    "rating": 3,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a38ed14eb5c17645c911d",
+    "review": "Kathmandu is lively, with temples, markets, and a fun zoo for a quick escape.",
+    "rating": 4,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a390d14eb5c17645c911e",
+    "review": " beautiful temples,beautiful places",
+    "rating": 4.5,
+    "user": "5c8a21d02f8fb814b56fa189",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a391f14eb5c17645c911f",
+    "review": "beautiful temples, rich culture, and vibrant festivals.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c0007"
+  },
+  {
+    "_id": "5c8a395b14eb5c17645c9120",
+    "review": "rich culture, vibrant festivals, and delicious local foods.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c0007"
+  },
+  {
+    "_id": "5c8a399014eb5c17645c9121",
+    "review": "Delicious foods,Beautiful Sunsets",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c0007"
+  },
+  {
+    "_id": "5c8a39a214eb5c17645c9122",
+    "review": "Vibrant city known for the stunning Janaki Mandir and Ram Mandir, rich Mithila culture, and tasty local foods like sel roti and mithila sweets.",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c0007"
+  },
+  {
+    "_id": "5c8a39b614eb5c17645c9123",
+    "review": "Rich traditions, and flavorful Mithila cuisine.",
+    "rating": 4,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c0007"
+  },
+  {
+    "_id": "5c8a3a7014eb5c17645c9124",
+    "review": "beautiful village with stone houses, mountain views, warm hospitality, and rich Gurung culture.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c0011"
+  },
+  {
+    "_id": "5c8a3a8d14eb5c17645c9125",
+    "review": "Perfect place for vacation",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c0011"
+  },
+  {
+    "_id": "5c8a3a9914eb5c17645c9126",
+    "review": "very good Hospitality ,beautiful villages",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c0011"
+  },
+  {
+    "_id": "5c8a3aaa14eb5c17645c9127",
+    "review": "Peaceful village with stunning Himalayan views, traditional Gurung culture, and scenic hiking trails.",
+    "rating": 4,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "tour": "5c88fa8cf4afda39709c0011"
+  },
+  {
+    "_id": "5c8a3abc14eb5c17645c9128",
+    "review": "Breathtaking mountain views, charming stone houses, and a glimpse into authentic Gurung lifestyle.",
+    "rating": 4,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c0011"
+  },
+  {
+    "_id": "5c8a3acf14eb5c17645c9129",
+    "review": "Perfect for beginners Trekkers",
+    "rating": 5,
+    "user": "5c8a201e2f8fb814b56fa186",
+    "tour": "5c88fa8cf4afda39709c0015"
+  },
+  {
+    "_id": "5c8a3b1e14eb5c17645c912a",
+    "review": "Best place to experience sunrise",
+    "rating": 4,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c0015"
+  },
+  {
+    "_id": "5c8a3b3214eb5c17645c912b",
+    "review": "Poon Hill is magical—majestic sunrise views over the Annapurnas, invigorating hikes, and crisp mountain air.",
+    "rating": 3,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c0015"
+  },
+  {
+    "_id": "5c8a3b4714eb5c17645c912c",
+    "review": "Stunning panoramic views of the Himalayas, especially at sunrise",
+    "rating": 4,
+    "user": "5c8a21d02f8fb814b56fa189",
+    "tour": "5c88fa8cf4afda39709c0015"
+  },
+  {
+    "_id": "5c8a3b6714eb5c17645c912e",
+    "review": "A short but rewarding trek, Poon Hill delights with golden mountain views, peaceful trails, and cozy villages.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c0015"
+  },
+  {
+    "_id": "5c8a3b7c14eb5c17645c912f",
+    "review": "A hidden gem surrounded by forests, mountains, and the bluest lake in Nepal.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c0020"
+  },
+  {
+    "_id": "5c8a3b9f14eb5c17645c9130",
+    "review": "Rara offers silence, scenic beauty, and pure Himalayan charm.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c0020"
+  },
+  {
+    "_id": "5c8a3bc414eb5c17645c9131",
+    "review": "Perfect vacation for family.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c0020"
+  },
+  {
+    "_id": "5c8a3bdc14eb5c17645c9132",
+    "review": "Lovely villagers who share their culture with genuine hospitality",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c0020"
+  },
+  {
+    "_id": "5c8a3bf514eb5c17645c9133",
+    "review": "Rara's charm lies not only in its views, but in the warmth and simplicity of the people who live there.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c0020"
+  },
+  {
+    "_id": "5c8a3c2514eb5c17645c9134",
+    "review": "ABC trek is an amazing adventure with stunning mountain views and friendly local people.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c0025"
+  },
+  {
+    "_id": "5c8a3c3b14eb5c17645c9135",
+    "review": "ABC trek is a must-do for nature lovers, with spectacular scenery and welcoming mountain communities.",
+    "rating": 4,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c0025"
+  },
+  {
+    "_id": "5c8a3c5314eb5c17645c9136",
+    "review": "Perfect for Beginner Trekkers",
+    "rating": 5,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "tour": "5c88fa8cf4afda39709c0025"
+  },
+  {
+    "_id": "5c8a3c6814eb5c17645c9137",
+    "review": "Annapurna Base Camp is a beautiful place where nature and culture meet in perfect harmony.",
+    "rating": 4,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c0025"
+  },
+  {
+    "_id": "5c8a3c7814eb5c17645c9138",
+    "review": "The trekking experience to ABC is unforgettable-peaceful forests, rugged paths, and majestic peaks.",
+    "rating": 4,
+    "user": "5c8a201e2f8fb814b56fa186",
+    "tour": "5c88fa8cf4afda39709c0025"
+  },
+  {
+    "_id": "5c8a3c9014eb5c17645c9139",
+    "review": "Lalitpur is rich in culture, with beautiful temples, traditional art, and friendly people.",
+    "rating": 4,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c0031"
+  },
+  {
+    "_id": "5c8a3ca314eb5c17645c913a",
+    "review": "Perfect for evening walks",
+    "rating": 4,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c0031"
+  },
+  {
+    "_id": "5c8a3cdc14eb5c17645c913b",
+    "review": "The art and craftsmanship in Lalitpur are incredible-perfect for culture lovers and explorers.",
+    "rating": 5,
+    "user": "5c8a21d02f8fb814b56fa189",
+    "tour": "5c88fa8cf4afda39709c0031"
+  },
+  {
+    "_id": "5c8a3cf414eb5c17645c913c",
+    "review": "Historic temples make it a must-visit near Kathmandu.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c0031"
+  },
+  {
+    "_id": "5c8a3d1e14eb5c17645c913d",
+    "review": "Lalitpur is famous for its ancient temples with exquisite carvings and unique architectural styles.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c0031"
+  },
+  {
+    "_id": "5c8a3d3a14eb5c17645c913e",
+    "review": "Perfect for short vacation with family",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c0035"
+  },
+  {
+    "_id": "5c8a3d5314eb5c17645c913f",
+    "review": "The streets in Bandipur are calm and full of old-style buildings.",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c0035"
+  },
+  {
+    "_id": "5c8a3d8614eb5c17645c9140",
+    "review": "Bandipur is a peaceful place to relax and enjoy nature.",
+    "rating": 4,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c0035"
+  },
+  {
+    "_id": "5c8a3d9b14eb5c17645c9141",
+    "review": "You can see beautiful sunsets and enjoy friendly locals in Bandipur.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c0035"
+  },
+  {
+    "_id": "5c8a3de514eb5c17645c9143",
+    "review": "Bandipur is perfect for a quiet visit and lovely mountain views.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c0035"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9144",
+    "review": "Manang is a quiet village with amazing mountain views and friendly people.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c0038"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4dbc5b",
+    "review": "Perfect destination for Families",
+    "rating": 4,
+    "user": "5c8a1f292f8fb814b56fa184",
+    "tour": "5c88fa8cf4afda39709c0038"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9999",
+    "review": "Manang offers beautiful scenery and a chance to experience local culture.",
+    "rating": 5,
+    "user": "5c8a1f4e2f8fb814b56fa185",
+    "tour": "5c88fa8cf4afda39709c0038"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9998",
+    "review": "Local people in Manang are warm and welcoming, often sharing stories and traditions.",
+    "rating": 4,
+    "user": "5c8a201e2f8fb814b56fa186",
+    "tour": "5c88fa8cf4afda39709c0038"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9997",
+    "review": "Manang gave me time to relax, explore, and enjoy the beauty of the Himalayas.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c0038"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9996",
+    "review": "The Dhorpatan trek felt raw and real-pure nature, quiet trails, and peaceful moments.",
+    "rating": 4,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c0043"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9995",
+    "review": "It was an amazing experience, far from the crowds, with stunning scenery all around.",
+    "rating": 5,
+    "user": "5c8a21d02f8fb814b56fa189",
+    "tour": "5c88fa8cf4afda39709c0043"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9994",
+    "review": "Trekking through Dhorpatan was calm and refreshing, with friendly locals and untouched landscapes.",
+    "rating": 4,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c0043"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9993",
+    "review": "The experience was adventurous and peaceful, with wild beauty and a sense of solitude.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c0043"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9992",
+    "review": "The fields were full of grazing yaks and local life-simple and beautiful.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c0043"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9991",
+    "review": "Bardiya was full of adventure-jungle walks, wildlife sightings, and peaceful nature all around.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c0047"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9990",
+    "review": "Perfect for family vacation",
+    "rating": 4,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c0047"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9989",
+    "review": "The experience in Bardiya was thrilling and peaceful, with friendly guides and amazing views.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c0047"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4d9988",
+    "review": "Bardiya gave me close moments with nature—lush jungle, quiet rivers, and real wildlife adventure.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c0047"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9987",
+    "review": "The safari in Bardiya was exciting, we saw rhinos, deer, and many birds in the wild.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c0047"
+  }
+]
