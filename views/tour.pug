@@ -44,29 +44,6 @@ block content
           +overviewBox('Participants', `${tour.maxGroupSize} people`, 'user')
           +overviewBox('Rating', `${tour.ratingsAverage} / 5` , 'star')
 
-          //- *** The below Code can be written by use of mixin where repeated code can be used.
-          //-
-          //- .overview-box__detail
-          //-   svg.overview-box__icon
-          //-     use(xlink:href='/img/icons.svg#icon-calendar')
-          //-   span.overview-box__label Next date
-          //-   span.overview-box__text August 2021
-          //- .overview-box__detail
-          //-   svg.overview-box__icon
-          //-     use(xlink:href='/img/icons.svg#icon-trending-up')
-          //-   span.overview-box__label Difficulty
-          //-   span.overview-box__text Medium
-          //- .overview-box__detail
-          //-   svg.overview-box__icon
-          //-     use(xlink:href='/img/icons.svg#icon-user')
-          //-   span.overview-box__label Participants
-          //-   span.overview-box__text 10 people
-          //- .overview-box__detail
-          //-   svg.overview-box__icon
-          //-     use(xlink:href='/img/icons.svg#icon-star')
-          //-   span.overview-box__label Rating
-          //-   span.overview-box__text 4.9 / 5
-
         .overview-box__group
           h2.heading-secondary.ma-bt-lg Your tour guides
 
@@ -74,8 +51,6 @@ block content
             .overview-box__detail
               img.overview-box__img(src=`/img/users/${guide.photo}`, alt=`${guide.name}`)
 
-              - if(guide.role === 'lead-guide')
-                span.overview-box__label Lead Guide
               - if(guide.role === 'guide')
                 span.overview-box__label Tour Guide
               span.overview-box__text= guide.name
@@ -96,10 +71,47 @@ block content
   section.section-map
     #map(data-locations=`${JSON.stringify(tour.locations)}`)
 
+  //- section.section-reviews
+  //-   .reviews
+  //-     each review in tour.reviews
+  //-       +reviewCard(review)
   section.section-reviews
     .reviews
+      //- each review in tour.reviews
+      //-   +reviewCard(review)
+
+      if user
+        button.btn.btn--green#write-review-btn Write a Review
+
+        form#review-form.review-form(style='display: none', action='reviews/submitReview', method='POST')
+          input(type='hidden', name='tour', value=tour.id)
+          input(type='hidden', name='user', value=user.id)
+          input(type='hidden', name='rating', id='selected-rating')
+
+          .reviews__avatar
+            img.reviews__avatar-img(src=`/img/users/${user.photo}`, alt=user.name)
+            h6.reviews__user= user.name
+
+          p.reviews__text-label Your Review
+          textarea.reviews__text(name='review', placeholder='Write your review here...', required)
+
+          .reviews__rating
+            label Select Rating:
+            .star-rating#star-rating
+              each star in [1, 2, 3, 4, 5]
+                svg.reviews__star.inactive(data-value=star)
+                  use(xlink:href='/img/icons.svg#icon-star', style='pointer-events: none')
+
+
+          button.btn.btn--green.mt-2(type='submit') Submit Review
+
+
+      else
+        a.btn.btn--green(href='/login') Log in to write a review!
+
       each review in tour.reviews
         +reviewCard(review)
+
 
 
   section.section-cta
@@ -115,3 +127,112 @@ block content
           button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) Book tour now!
         else
           a.btn.btn--green.span-all-rows(href='/login') Log In to book Tour!
+
+  style.
+    .reviews__star {
+      cursor: pointer;
+      fill: #ccc;
+    }
+
+    .reviews__star.active {
+      fill: #ffb400; /* Gold color */
+    }
+
+    .reviews__star.inactive {
+      fill: #ccc;
+    }
+
+    .reviews__star use {
+      pointer-events: none; /* Let clicks pass through to the parent SVG */
+    }
+
+
+
+  script.
+      document.addEventListener('DOMContentLoaded', () => {
+      const writeReviewBtn = document.getElementById('write-review-btn');
+      const reviewForm = document.getElementById('review-form');
+      const ratingInput = document.getElementById('selected-rating');
+      const starContainer = document.getElementById('star-rating');
+      
+      if (writeReviewBtn) {
+        writeReviewBtn.addEventListener('click', async () => {
+          const tourId = document.querySelector('input[name="tour"]').value;
+
+          try {
+            const res = await fetch(`/api/v1/bookings/check-booking/${tourId}`);
+            const data = await res.json();
+
+            if (data.status === 'success') {
+              // User has booked, show form
+              reviewForm.style.display = 'block';
+            } else {
+              // User has not booked
+              alert('You must purchase this tour before writing a review.');
+            }
+          } catch (err) {
+            console.error('Error checking booking:', err);
+            alert('Could not verify booking. Please try again.');
+          }
+        });
+      }
+
+
+      if (starContainer) {
+        starContainer.addEventListener('click', (e) => {
+          // Get the closest .reviews__star element
+          const star = e.target.closest('.reviews__star');
+          if (!star) return;  // Click was not on a star
+
+          const selectedRating = parseInt(star.getAttribute('data-value'), 10);
+          ratingInput.value = selectedRating;
+
+          document.querySelectorAll('#star-rating .reviews__star').forEach(s => {
+            const starValue = parseInt(s.getAttribute('data-value'), 10);
+            if (starValue <= selectedRating) {
+              s.classList.add('active');
+              s.classList.remove('inactive');
+            } else {
+              s.classList.remove('active');
+              s.classList.add('inactive');
+            }
+          });
+        });
+      }
+
+      if (reviewForm) {
+        reviewForm.addEventListener('submit', async function (e) {
+          e.preventDefault();
+
+          const formData = new FormData(this);
+          const data = Object.fromEntries(formData.entries());
+
+          try {
+            const res = await fetch('/api/v1/reviews/submitReview', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(data),
+            });
+
+            if (res.ok) {
+              const tourId = data.tour;
+              window.location.href = `/tour/${tourId}`;
+            } else {
+              const errorData = await res.json();
+              alert(errorData.message || 'Error submitting review');
+            }
+          } catch (err) {
+            console.error(err);
+            alert('Successful!!!');
+          }
+        });
+      }
+    });
+
+
+
+
+
+

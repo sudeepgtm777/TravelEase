@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "686f2b34a224960444b6c522",
+    "paid": true,
+    "tour": "5c88fa8cf4afda39709c2951",
+    "user": "686f2b09a224960444b6c515",
+    "price": 9000
+  }
+  {
+    "_id": "686f2b34a224960444b6c525",
+    "paid": true,
+    "tour": "5c88fa8cf4afda39709c2953",
+    "user": "686f2b09a224960444b6c512",
+    "price": 9000
+  }
+]

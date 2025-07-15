@@ -14,10 +14,10 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
-const reviewRouter = require('./routes/reviewRoute');
+const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoute');
 const viewRouter = require('./routes/viewRoutes');
-const chatRouter = require('./routes/chatbotRoutes'); // Make sure this path is correct
+const chatRouter = require('./routes/chatbotRoutes');
 
 const app = express();
 
@@ -81,7 +81,6 @@ app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
 });
-
 
 app.use(express.urlencoded({ extended: true }));
 app.use('/', viewRouter);

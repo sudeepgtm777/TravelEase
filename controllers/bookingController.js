@@ -50,9 +50,31 @@ exports.createBookingCheckout = catchAsync(async (req, res, next) => {
 
   if (!tour && !user && !price) return next();
 
-  await Booking.create({ tour, user, price });
+  await Booking.create({ tour, user, price, paid: true });
 
   res.redirect(req.originalUrl.split('?')[0]);
+});
+
+exports.checkIfUserBooked = catchAsync(async (req, res, next) => {
+  const { tourId } = req.params;
+
+  const booking = await Booking.findOne({
+    user: req.user.id.toString(),
+    tour: tourId.toString(),
+    paid: true,
+  });
+
+  if (!booking) {
+    return res.status(200).json({
+      status: 'fail',
+      message: 'You must purchase this tour before writing a review.',
+    });
+  }
+
+  res.status(200).json({
+    status: 'success',
+    message: 'You have booked this tour.',
+  });
 });
 
 exports.createBooking = factory.createOne(Booking);

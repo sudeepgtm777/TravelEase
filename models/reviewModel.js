@@ -43,7 +43,7 @@ reviewSchema.pre(/^find/, function (next) {
   /******* This is used for getting data of  user from id  and only id from tour********/
   this.populate({
     path: 'user',
-    select: 'photo user',
+    select: 'photo name',
   });
   next();
 });
