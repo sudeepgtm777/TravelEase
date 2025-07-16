@@ -107,6 +107,19 @@ const tourSchema = new mongoose.Schema(
         ref: 'User',
       },
     ],
+    itinerary: [
+      {
+        day: Number,
+        destination: String,
+        car: String,
+        overnight: String,
+        food: String,
+        accommodation: String,
+        journey: String,
+        leisureTime: String,
+        overnightStay: String,
+      },
+    ],
   },
   {
     toJSON: { virtuals: true },

@@ -64,85 +64,28 @@ block content
 
   section.section-itinerary
     .itinerary-container
-      .itinerary-card
-        .itinerary-header
-          span.day Day 01
-          h2 Pokhara to Tatopani Hot Spring
-        .itinerary-details
-          .itinerary-info
-            span 🚗 Car: 5-6 Hrs
-            span 📍 Overnight: Tatopani
-            span 🍽️ Food: No
-            span 🏨 Accommodation: Guesthouse/Hotel
-          p
-            strong Journey:
-            |  Drive from Pokhara to Tatopani enjoying the riverside and mountain views.
-          p
-            strong Leisure Time:
-            |  Enjoy a relaxing bath at Tatopani Hot Spring.
-          p
-            strong Overnight Stay:
-            |  Hotel in Tatopani.
+      if tour.itinerary
+        each item in tour.itinerary
+          .itinerary-card
+            .itinerary-header
+              span.day Day #{item.day < 10 ? '0' + item.day : item.day}
+              h2= item.destination
+            .itinerary-details
+              .itinerary-info
+                span 🚗 Car: #{item.car} Hrs
+                span 📍 Overnight: #{item.overnight}
+                span 🍽️ Food: #{item.food}
+                span 🏨 Accommodation: #{item.accommodation}
+              p
+                strong Journey:
+                |  #{item.journey}
+              p
+                strong Leisure Time:
+                |  #{item.leisureTime}
+              p
+                strong Overnight Stay:
+                |  #{item.overnightStay}
 
-      .itinerary-card
-        .itinerary-header
-          span.day Day 02
-          h2 Tatopani to Marpha
-        .itinerary-details
-          .itinerary-info
-            span 🚗 Car: 4-5 Hrs 
-            span 📍 Overnight: Marpha
-            span 🍽️ Food: No
-            span 🏨 Accommodation: Guesthouse/Hotel
-          p
-            strong Journey:
-            |  Drive from Tatopani to Marpha, the beautiful apple village.
-          p
-            strong Leisure Time:
-            |  Explore Marpha village, apple orchards, and taste local apple products.
-          p
-            strong Overnight Stay:
-            |  Hotel in Marpha.
-
-      .itinerary-card
-        .itinerary-header
-          span.day Day 03
-          h2 Marpha to Muktinath Temple
-        .itinerary-details
-          .itinerary-info
-            span 🚗 Car: 4 Hrs 
-            span 📍 Overnight: Muktinath
-            span 🍽️ Food: No
-            span 🏨 Accommodation: Guesthouse/Hotel
-          p
-            strong Journey:
-            |  Drive to Muktinath, a sacred pilgrimage site.
-          p
-            strong Leisure Time:
-            |  Visit Muktinath Temple and explore local surroundings.
-          p
-            strong Overnight Stay:
-            |  Hotel near Muktinath.
-
-      .itinerary-card
-        .itinerary-header
-          span.day Day 04
-          h2 Muktinath to Jomsom
-        .itinerary-details
-          .itinerary-info
-            span 🚗 Car: 2-3 Hrs
-            span 📍 Overnight: Jomsom
-            span 🍽️ Food: No
-            span 🏨 Accommodation: Guesthouse/Hotel
-          p
-            strong Journey:
-            |  Drive back to Jomsom, enjoying the scenic mountain drive.
-          p
-            strong Leisure Time:
-            |  Explore Jomsom Bazaar and the banks of Kali Gandaki River.
-          p
-            strong Overnight Stay:
-            |  Hotel in Jomsom.
 
   section.section-pictures
 

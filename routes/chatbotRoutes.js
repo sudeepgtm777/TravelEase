@@ -49,10 +49,9 @@ const responses = {
     'Yes, we have a flexible cancellation and rescheduling policy. Contact us at least 48 hours in advance.',
 
   // Contact
-  'contact us':
-    'You can reach us at info@yourtourismwebsite.com or call us at +977-9876543210.',
+  'contact us': 'You can reach us at TravelEase8848@gmail.com.',
   'where are you located':
-    'Our main office is in Thamel, Kathmandu. Feel free to visit or call us for assistance.',
+    'Our main office is in Butwal, Rupandehi. Feel free to visit or call us for assistance.',
 
   // Farewells
   'thank you': "You're welcome! Feel free to ask if you have more questions.",

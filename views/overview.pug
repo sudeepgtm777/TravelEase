@@ -7,7 +7,7 @@ block content
       h1 TravelEase: Book your next Tour
 
   .heading-tour
-    span Our Tour Packages
+    span Tour Packages
 
   main.main
     .card-container
@@ -34,7 +34,7 @@ block content
             .card__data
               svg.card__icon
                 use(xlink:href='/img/icons.svg#icon-flag')
-              span= `${tour.locations.length} stops`
+              span= tour.locations ? `${tour.locations.length} stops` : '0 stops'
             .card__data
               svg.card__icon
                 use(xlink:href='/img/icons.svg#icon-user')
