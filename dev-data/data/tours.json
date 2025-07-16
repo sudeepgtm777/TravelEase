@@ -10,9 +10,9 @@
     "ratingsQuantity": 6,
     "images": ["mustang1.jpg", "mustang2.jpg", "mustang3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
     "name": "Mystic Mustang Adventure",
@@ -53,6 +53,52 @@
         "coordinates": [83.773, 28.7746],
         "day": 4
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Pokhara to Tatopani Hot Spring",
+        "car": "5-6",
+        "overnight": "Tatopani",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive from Pokhara to Tatopani enjoying the riverside and mountain views.",
+        "leisureTime": "Enjoy a relaxing bath at Tatopani Hot Spring.",
+        "overnightStay": "Hotel in Tatopani."
+      },
+      {
+        "day": 2,
+        "destination": "Tatopani to Marpha",
+        "car": "4-5",
+        "overnight": "Marpha",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Muktinath, a sacred pilgrimage site.",
+        "leisureTime": "Visit Muktinath Temple and explore local surroundings.",
+        "overnightStay": "Hotel near Muktinath."
+      },
+      {
+        "day": 3,
+        "destination": "Marpha to Muktinath Temple",
+        "car": "4",
+        "overnight": "Muktinath",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Muktinath, a sacred pilgrimage site.",
+        "leisureTime": "Visit Muktinath Temple and explore local surroundings.",
+        "overnightStay": "Hotel near Muktinath."
+      },
+      {
+        "day": 4,
+        "destination": "Muktinath to Jomsom",
+        "car": "2-3",
+        "overnight": "Jomsom",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive back to Jomsom, enjoying the scenic mountain drive.",
+        "leisureTime": "Explore Jomsom Bazaar and the banks of Kali Gandaki River.",
+        "overnightStay": "Hotel in Jomsom."
+      }
     ]
   },
   {
@@ -66,9 +112,9 @@
     "ratingsQuantity": 9,
     "images": ["pokhara1.jpg", "pokhara2.jpg", "pokhara3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2951",
     "name": "Pokhara Adventure Escape",
@@ -109,6 +155,41 @@
         "coordinates": [83.95863, 28.18974],
         "day": 3
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Visit Fewa Taal",
+        "car": "1-2",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive or walk to the beautiful lakeside of Fewa Taal.",
+        "leisureTime": "Boating or relaxing near the lake with a mountain view.",
+        "overnightStay": "Hotel near Fewa Taal in Pokhara."
+      },
+      {
+        "day": 2,
+        "destination": "Explore Bat Cave and Mahendra Cave",
+        "car": "1-2",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Short drive to explore Bat Cave followed by Mahendra Cave.",
+        "leisureTime": "Experience natural limestone formations and cave wildlife.",
+        "overnightStay": "Hotel near Mahendra Cave area."
+      },
+      {
+        "day": 3,
+        "destination": "Visit Devi's Fall",
+        "car": "1",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Devi's Fall, one of Pokhara's iconic waterfalls.",
+        "leisureTime": "Take photos and relax near the waterfall and Gupteshwor Cave.",
+        "overnightStay": "Hotel in Pokhara."
+      }
     ]
   },
   {
@@ -122,9 +203,9 @@
     "ratingsQuantity": 6,
     "images": ["lumbini1.jpg", "lumbini2.jpg", "lumbini3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295a",
     "name": "Lumbini - Enlightenment Path",
@@ -151,6 +232,30 @@
         "coordinates": [83.37683, 27.58464],
         "day": 2
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Visit Lumbini",
+        "car": "1-2",
+        "overnight": "Lumbini",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Lumbini, the birthplace of Lord Buddha.",
+        "leisureTime": "Explore the Maya Devi Temple, monastic zone, and peaceful gardens.",
+        "overnightStay": "Hotel in Lumbini."
+      },
+      {
+        "day": 2,
+        "destination": "Lumbini to Lumbini Palace Resort",
+        "car": "1-2",
+        "overnight": "Lumbini Palace Resort",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Lumbini Palace Resort for a relaxed and comfortable stay.",
+        "leisureTime": "Enjoy resort amenities and serene surroundings.",
+        "overnightStay": "Hotel at Lumbini Palace Resort."
+      }
     ]
   },
   {
@@ -164,9 +269,9 @@
     "ratingsQuantity": 7,
     "images": ["chitwan1.jpg", "chitwan2.jpg", "chitwan3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2961",
     "name": "Chitwan - Green Heart of Nepal",
@@ -175,8 +280,8 @@
     "difficulty": "medium",
     "guides": ["5c8a245f2f8fb814b56fc45d", "5c8a24402f8fb814b56fb345"],
     "price": 7000,
-    "summary": "Breathe in the wild beauty of Chitwan National Park, Nepal’s most spectacular jungle escape.",
-    "description": "Discover the untamed wilderness of Chitwan National Park, where lush jungles, rich biodiversity, and thrilling wildlife encounters await. Home to endangered species like the one-horned rhinoceros, Bengal tigers, and gharial crocodiles, Chitwan offers an unforgettable journey into Nepal’s most iconic natural treasure.\n\nExperience peaceful canoe rides along the Rapti River, exciting jeep safaris, and guided jungle walks that bring you face-to-face with the incredible wildlife of the region. Dive into the unique culture of the Tharu community and embrace the perfect harmony of adventure, nature, and tradition in this extraordinary destination.",
+    "summary": "Breathe in the wild beauty of Chitwan National Park, Nepal's most spectacular jungle escape.",
+    "description": "Discover the untamed wilderness of Chitwan National Park, where lush jungles, rich biodiversity, and thrilling wildlife encounters await. Home to endangered species like the one-horned rhinoceros, Bengal tigers, and gharial crocodiles, Chitwan offers an unforgettable journey into Nepal's most iconic natural treasure.\n\nExperience peaceful canoe rides along the Rapti River, exciting jeep safaris, and guided jungle walks that bring you face-to-face with the incredible wildlife of the region. Dive into the unique culture of the Tharu community and embrace the perfect harmony of adventure, nature, and tradition in this extraordinary destination.",
     "imageCover": "chitwan1.jpg",
     "locations": [
       {
@@ -193,6 +298,30 @@
         "coordinates": [84.3135, 27.5193],
         "day": 2
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Narayani Sightseeing",
+        "car": "1-2",
+        "overnight": "Narayani",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Narayani for a day of scenic sightseeing along the river.",
+        "leisureTime": "Walk by the riverbanks, enjoy the sunset, and explore local attractions.",
+        "overnightStay": "Hotel in Narayani."
+      },
+      {
+        "day": 2,
+        "destination": "Visit Chitwan National Park",
+        "car": "1-2",
+        "overnight": "Chitwan",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Chitwan National Park, a UNESCO World Heritage site.",
+        "leisureTime": "Enjoy jungle safari, elephant sightings, and Tharu cultural programs.",
+        "overnightStay": "Hotel near Chitwan National Park."
+      }
     ]
   },
   {
@@ -206,9 +335,9 @@
     "ratingsQuantity": 5,
     "images": ["ktm1.jpg", "ktm2.jpg", "ktm3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295d",
     "name": "Kathmandu - Trails of Temples",
@@ -249,6 +378,41 @@
         "coordinates": [85.21443, 27.68655],
         "day": 3
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Visit Swoyambhu Mahachaitya",
+        "car": "1-2",
+        "overnight": "Kathmandu",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Travel to Swoyambhu Mahachaitya, also known as the Monkey Temple, a sacred Buddhist site.",
+        "leisureTime": "Climb the steps, enjoy panoramic views of Kathmandu Valley, and explore Buddhist and Hindu shrines.",
+        "overnightStay": "Hotel in Kathmandu near Swoyambhu."
+      },
+      {
+        "day": 2,
+        "destination": "Central Zoo and Pashupatinath Temple",
+        "car": "1-2",
+        "overnight": "Kathmandu",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Visit the Central Zoo followed by Pashupatinath, one of the most sacred Hindu temples.",
+        "leisureTime": "See various animal species at the zoo, and witness rituals along the Bagmati River at Pashupatinath.",
+        "overnightStay": "Hotel in Kathmandu near Pashupatinath."
+      },
+      {
+        "day": 3,
+        "destination": "Chandragiri Cable Car Ride",
+        "car": "1-2",
+        "overnight": "Kathmandu",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive to Chandragiri Hills and take a scenic cable car ride to the top.",
+        "leisureTime": "Enjoy views of the Himalayas, explore the Bhaleshwor Mahadev temple, and relax in the hilltop park.",
+        "overnightStay": "Hotel in Kathmandu."
+      }
     ]
   },
   {
@@ -262,9 +426,9 @@
     "ratingsQuantity": 6,
     "images": ["janakpur1.jpg", "janakpur2.jpg", "janakpur3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0007",
     "name": "Sacred Janakpur Journey",
@@ -306,6 +470,30 @@
         "coordinates": [86.0428, 26.8712],
         "day": 2
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Janaki Temple and Ganga Sagar",
+        "car": "1",
+        "overnight": "Janakpur",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Visit Janaki Temple, a sacred site dedicated to Goddess Sita, followed by a walk to the nearby Ganga Sagar pond.",
+        "leisureTime": "Explore the temple complex and enjoy the serene waterside at Ganga Sagar.",
+        "overnightStay": "Hotel in Janakpur."
+      },
+      {
+        "day": 2,
+        "destination": "Ram Mandir and Dhanusadham",
+        "car": "1-2",
+        "overnight": "Janakpur",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Begin your day with a visit to Ram Mandir, then travel to Dhanusadham, a religious site believed to be where Lord Ram broke the sacred bow.",
+        "leisureTime": "Relax around the temples and learn about the mythology connected to the Ramayana.",
+        "overnightStay": "Hotel in Janakpur."
+      }
     ]
   },
   {
@@ -319,9 +507,9 @@
     "ratingsQuantity": 9,
     "images": ["Ghandruk1.jpg", "Ghandruk2.jpg", "Ghandruk3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0011",
     "name": "Ghandruk - Where the Himalayas Begin",
@@ -355,6 +543,41 @@
         "coordinates": [83.842, 28.3069],
         "day": 3
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Trek to Ghandruk",
+        "car": "2-3",
+        "overnight": "Ghandruk",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Start your trek from Nayapul or nearby and hike up to Ghandruk village, a beautiful Gurung settlement.",
+        "leisureTime": "Explore the traditional houses, local museum, and stunning views of Annapurna and Machapuchare.",
+        "overnightStay": "Guesthouse in Ghandruk."
+      },
+      {
+        "day": 2,
+        "destination": "Ghandruk to Landruk",
+        "car": "2-3",
+        "overnight": "Landruk",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Trek downhill from Ghandruk to the Modi Khola river, then ascend to Landruk.",
+        "leisureTime": "Relax in Landruk village surrounded by beautiful terraced hills and warm hospitality.",
+        "overnightStay": "Guesthouse in Landruk."
+      },
+      {
+        "day": 3,
+        "destination": "Landruk to Dhampus",
+        "car": "2-3",
+        "overnight": "Dhampus",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Continue your trek from Landruk to Dhampus via forest trails and ridge walks.",
+        "leisureTime": "Enjoy panoramic views of the Himalayas and peaceful surroundings in Dhampus.",
+        "overnightStay": "Guesthouse in Dhampus."
+      }
     ]
   },
   {
@@ -368,9 +591,9 @@
     "ratingsQuantity": 6,
     "images": ["poonhill1.jpg", "poonhill2.jpg", "poonhill3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0015",
     "name": "Poonhill - Stairway to Sunrise",
@@ -411,6 +634,52 @@
         "coordinates": [83.9856, 28.2096],
         "day": 4
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Trek to Ulleri",
+        "car": "2-3",
+        "overnight": "Ulleri",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Start your trek from Nayapul or Tikhedhunga and ascend the steep stone steps to Ulleri.",
+        "leisureTime": "Rest in the village, surrounded by terraced fields and green hills.",
+        "overnightStay": "Guesthouse in Ulleri."
+      },
+      {
+        "day": 2,
+        "destination": "Ulleri to Ghorepani",
+        "car": "2-3",
+        "overnight": "Ghorepani",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Continue your uphill trek through rhododendron forests toward Ghorepani.",
+        "leisureTime": "Relax in the cozy village and prepare for an early morning hike to Poon Hill.",
+        "overnightStay": "Guesthouse in Ghorepani."
+      },
+      {
+        "day": 3,
+        "destination": "Poon Hill Sunrise Hike",
+        "car": "1-2",
+        "overnight": "Ghorepani",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Early morning hike to Poon Hill to witness breathtaking sunrise views over the Annapurna and Dhaulagiri ranges.",
+        "leisureTime": "Capture photos, enjoy the fresh mountain air, and return to Ghorepani for rest.",
+        "overnightStay": "Guesthouse in Ghorepani."
+      },
+      {
+        "day": 4,
+        "destination": "Return to Pokhara",
+        "car": "4-5",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Trek downhill and drive back to Pokhara from Nayapul.",
+        "leisureTime": "Relax at lakeside cafes or stroll around Phewa Lake in Pokhara.",
+        "overnightStay": "Hotel in Pokhara."
+      }
     ]
   },
   {
@@ -424,9 +693,9 @@
     "ratingsQuantity": 7,
     "images": ["rara1.jpg", "rara2.jpg", "rara3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0020",
     "name": "Rara - Shining Mirror of Mountains",
@@ -467,6 +736,52 @@
         "coordinates": [81.7131, 28.2118],
         "day": 4
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Pokhara to Surkhet",
+        "car": "9-10",
+        "overnight": "Surkhet",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive from Pokhara to Surkhet via Butwal, Lamahi, and Kohalpur on the Mahendra Highway.",
+        "leisureTime": "Evening walk around Surkhet Bazaar or relax at your hotel.",
+        "overnightStay": "Hotel in Surkhet."
+      },
+      {
+        "day": 2,
+        "destination": "Surkhet to Kalikot",
+        "car": "8-9",
+        "overnight": "Kalikot",
+        "food": "No",
+        "accommodation": "Basic Guesthouse",
+        "journey": "Drive along the scenic and rugged Karnali Highway to reach Kalikot, with dramatic cliffs and mountain views.",
+        "leisureTime": "Short hike to a local viewpoint or relax in the hills.",
+        "overnightStay": "Guesthouse in Kalikot."
+      },
+      {
+        "day": 3,
+        "destination": "Kalikot to Rara Lake",
+        "car": "6-7",
+        "overnight": "Rara Lake",
+        "food": "No",
+        "accommodation": "Guesthouse/Camp",
+        "journey": "Continue the mountain drive to Talcha, then hike 1-1.5 hours through pine forests to reach Rara Lake.",
+        "leisureTime": "Evening lakeside walk, photography, or boating.",
+        "overnightStay": "Lakeside guesthouse or eco-camp at Rara."
+      },
+      {
+        "day": 4,
+        "destination": "Rara Lake to Pokhara via Kohalpur",
+        "car": "10-12",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Hotel",
+        "journey": "Retrace the drive back through Kalikot, Surkhet, and Kohalpur before reaching Pokhara.",
+        "leisureTime": "Rest breaks and scenic stops along the return route.",
+        "overnightStay": "Hotel in Pokhara."
+      }
     ]
   },
   {
@@ -480,9 +795,9 @@
     "ratingsQuantity": 5,
     "images": ["abc1.jpg", "abc2.jpg", "abc3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0025",
     "name": "ABC Trekking Expedition",
@@ -530,6 +845,63 @@
         "coordinates": [83.9856, 28.2096],
         "day": 5
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Pokhara to Sinuwa",
+        "car": "7-8",
+        "overnight": "Sinuwa",
+        "food": "No",
+        "accommodation": "Tea House/Lodge",
+        "journey": "Drive from Pokhara to Siwai via Nayapul, then begin trekking through Chhomrong and Bamboo to reach Sinuwa.",
+        "leisureTime": "Relax and enjoy the peaceful mountain village atmosphere.",
+        "overnightStay": "Lodge in Sinuwa."
+      },
+      {
+        "day": 2,
+        "destination": "Sinuwa to Machhapuchhre Base Camp (MBC)",
+        "car": "6-7",
+        "overnight": "Machhapuchhre Base Camp",
+        "food": "No",
+        "accommodation": "Tea House/Lodge",
+        "journey": "Trek through dense rhododendron forest, cross rivers and ascend past Dovan, Himalaya, and Deurali to reach MBC.",
+        "leisureTime": "Watch sunset over Machhapuchhre and surrounding peaks.",
+        "overnightStay": "Lodge at MBC."
+      },
+      {
+        "day": 3,
+        "destination": "MBC to Annapurna Base Camp (ABC)",
+        "car": "2-3",
+        "overnight": "Annapurna Base Camp",
+        "food": "No",
+        "accommodation": "Tea House",
+        "journey": "A gradual climb through alpine terrain to reach the stunning Annapurna Base Camp.",
+        "leisureTime": "Explore the glacier basin and take photos of panoramic Annapurna range.",
+        "overnightStay": "Lodge at ABC."
+      },
+      {
+        "day": 4,
+        "destination": "ABC to Jhinu Danda",
+        "car": "7-8",
+        "overnight": "Jhinu Danda",
+        "food": "No",
+        "accommodation": "Tea House",
+        "journey": "Descend back through Deurali, Bamboo, and Chhomrong, and finally down to Jhinu Danda.",
+        "leisureTime": "Soak in the natural hot springs by the Modi Khola river.",
+        "overnightStay": "Lodge in Jhinu Danda."
+      },
+      {
+        "day": 5,
+        "destination": "Jhinu Danda to Pokhara",
+        "car": "4-6",
+        "overnight": "Pokhara",
+        "food": "No",
+        "accommodation": "Hotel",
+        "journey": "Short descent to Siwai followed by a drive back to Pokhara.",
+        "leisureTime": "Free time in Pokhara’s lakeside area for shopping or rest.",
+        "overnightStay": "Hotel in Pokhara."
+      }
     ]
   },
   {
@@ -543,9 +915,9 @@
     "ratingsQuantity": 9,
     "images": ["lalitpur1.jpg", "lalitpur2.jpg", "lalitpur3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0031",
     "name": "Lalitpur Heritage Walk",
@@ -579,6 +951,41 @@
         "coordinates": [85.32447, 27.67536],
         "day": 3
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Patan Durbar Square Exploration",
+        "car": "Max 1",
+        "overnight": "Patan",
+        "food": "No",
+        "accommodation": "Hotel/Guesthouse",
+        "journey": "Start your tour at the UNESCO World Heritage Site, Patan Durbar Square. Discover the ancient palace, Krishna Mandir, Taleju Temple, and the Patan Museum.",
+        "leisureTime": "Enjoy traditional Newari food at a local rooftop cafe overlooking the square.",
+        "overnightStay": "Guesthouse near Durbar Square."
+      },
+      {
+        "day": 2,
+        "destination": "Visit to Central Zoo",
+        "car": "Max 1",
+        "overnight": "Patan",
+        "food": "No",
+        "accommodation": "Hotel/Guesthouse",
+        "journey": "Spend the day at the Central Zoo, Nepal’s only zoo, housing native wildlife, birds, reptiles, and a small aquarium.",
+        "leisureTime": "Relax in the zoo’s park areas or paddle in the boating pond.",
+        "overnightStay": "Hotel in Patan."
+      },
+      {
+        "day": 3,
+        "destination": "Hiranya Varna Mahavihar & Local Alley Walks",
+        "car": "Max 1",
+        "overnight": "Patan",
+        "food": "No",
+        "accommodation": "Hotel/Guesthouse",
+        "journey": "Walk to Hiranya Varna Mahavihar (Golden Temple), an ancient Newar Buddhist monastery known for its golden façade and intricate details.",
+        "leisureTime": "Stroll through the nearby hidden courtyards and artisan shops.",
+        "overnightStay": "Final night in Patan or return to Kathmandu."
+      }
     ]
   },
   {
@@ -592,9 +999,9 @@
     "ratingsQuantity": 7,
     "images": ["bandipur1.jpg", "bandipur2.jpg", "bandipur3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0035",
     "name": "Mystic Bandipur Trails",
@@ -621,6 +1028,30 @@
         "coordinates": [84.419, 27.94849],
         "day": 2
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Bandipur Local Exploration",
+        "car": "Max 1",
+        "overnight": "Bandipur",
+        "food": "No",
+        "accommodation": "Traditional Guesthouse/Hotel",
+        "journey": "Arrive in Bandipur and explore the beautifully preserved hilltop town with its car-free cobbled streets, Newari architecture, temples, and vibrant local life.",
+        "leisureTime": "Enjoy sunset views from Tundikhel and sample local Newari cuisine at a traditional inn.",
+        "overnightStay": "Guesthouse in Bandipur Bazaar."
+      },
+      {
+        "day": 2,
+        "destination": "Nature and Caves",
+        "car": "Max 1",
+        "overnight": "Bandipur / Departure",
+        "food": "No",
+        "accommodation": "Guesthouse or - (if returning)",
+        "journey": "Hike or drive to Siddha Gufa (Nepal's largest cave), passing lush forest and hillside trails. Explore the cave's stunning limestone formations with a local guide.",
+        "leisureTime": "Optional: Visit Thani Mai Temple viewpoint or relax at local cafés before departing.",
+        "overnightStay": "Optional stay or return to Pokhara/Kathmandu."
+      }
     ]
   },
   {
@@ -634,9 +1065,9 @@
     "ratingsQuantity": 5,
     "images": ["manang1.jpg", "manang2.jpg", "manang3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0038",
     "name": "Manang Peaks & Valleys Tour",
@@ -677,6 +1108,52 @@
         "coordinates": [84.4066, 28.4147],
         "day": 4
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Kathmandu/Pokhara to Besisahar",
+        "car": "6-8 ",
+        "overnight": "Besisahar",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Drive from Kathmandu or Pokhara to Besisahar, the entry point to the Annapurna Circuit. Enjoy the scenic views of rivers, hills, and traditional villages on the way.",
+        "leisureTime": "Evening walk around the town and riverside.",
+        "overnightStay": "Guesthouse in Besisahar."
+      },
+      {
+        "day": 2,
+        "destination": "Besisahar to Manang (Sightseeing)",
+        "car": "6-7",
+        "overnight": "Manang",
+        "food": "No",
+        "accommodation": "Tea House/Guesthouse",
+        "journey": "Drive via rugged roads through Chame and Pisang to reach the high-altitude village of Manang (3,500m).",
+        "leisureTime": "Visit Braga Monastery, acclimatization walk, or stroll through Manang village.",
+        "overnightStay": "Tea house in Manang."
+      },
+      {
+        "day": 3,
+        "destination": "Manang Valley Tour",
+        "car": "Max 1",
+        "overnight": "Manang",
+        "food": "No",
+        "accommodation": "Tea House",
+        "journey": "Explore the breathtaking landscapes around Manang, including Gangapurna Lake, Milarepa Cave, and local villages.",
+        "leisureTime": "Enjoy panoramic views and relax at local cafés.",
+        "overnightStay": "Tea house in Manang."
+      },
+      {
+        "day": 4,
+        "destination": "Manang to Jagat",
+        "car": "6-7",
+        "overnight": "Jagat",
+        "food": "No",
+        "accommodation": "Guesthouse/Hotel",
+        "journey": "Return by jeep from Manang, descending through the same route past Pisang and Chame to Jagat.",
+        "leisureTime": "Rest and enjoy the peaceful riverside environment.",
+        "overnightStay": "Guesthouse in Jagat."
+      }
     ]
   },
   {
@@ -690,9 +1167,9 @@
     "ratingsQuantity": 9,
     "images": ["dhorpatan1.jpg", "dhorpatan2.jpg", "dhorpatan3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0043",
     "name": "Dhorpatan Wilderness Trek",
@@ -726,6 +1203,41 @@
         "coordinates": [82.9932, 28.5856],
         "day": 3
       }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Camping at Dhorpatan",
+        "car": "7-9",
+        "overnight": "Dhorpatan",
+        "food": "No",
+        "accommodation": "Tented Camp",
+        "journey": "Travel through rugged mountain terrain to reach Dhorpatan. Set up camp in the serene alpine meadows, surrounded by pine forests and Himalayan views.",
+        "leisureTime": "Short acclimatization hike or birdwatching near the campsite.",
+        "overnightStay": "Tented camp in Dhorpatan valley."
+      },
+      {
+        "day": 2,
+        "destination": "Dhorpatan Hunting Expedition",
+        "car": "Max 1",
+        "overnight": "Dhorpatan",
+        "food": "No",
+        "accommodation": "Tented Camp",
+        "journey": "Start the guided expedition in Dhorpatan Hunting Reserve. Track species such as blue sheep (naur), goral, and Himalayan tahr (observational/ecotour style or permitted hunting).",
+        "leisureTime": "Rest and storytelling around campfire in the evening.",
+        "overnightStay": "Tented camp in Dhorpatan."
+      },
+      {
+        "day": 3,
+        "destination": "Dhorpatan Hunting Expedition",
+        "car": "Max 1",
+        "overnight": "Dhorpatan / Exit",
+        "food": "No",
+        "accommodation": "Tented Camp or return to nearest lodge",
+        "journey": "Continue exploration or complete hunting activities. Wrap up the expedition and prepare for return travel.",
+        "leisureTime": "Photography or final short hikes before departure.",
+        "overnightStay": "Final night at camp or begin return journey."
+      }
     ]
   },
   {
@@ -739,9 +1251,9 @@
     "ratingsQuantity": 5,
     "images": ["bardiya1.jpg", "bardiya2.jpg", "bardiya3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2025-07-15T09:00:00.000Z",
+      "2025-07-20T09:00:00.000Z",
+      "2025-07-25T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c0047",
     "name": "Bardiya Nature & Safari Adventure",
@@ -774,6 +1286,41 @@
         "type": "Point",
         "coordinates": [81.5596, 28.3649],
         "day": 3
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "destination": "Tharu Village Tour",
+        "car": "Max 1",
+        "overnight": "Bardia (Thakurdwara or nearby)",
+        "food": "No",
+        "accommodation": "Eco-lodge / Homestay",
+        "journey": "Arrive in Bardia and explore local Tharu villages with a guide. Learn about traditional mud houses, lifestyle, farming techniques, and indigenous customs.",
+        "leisureTime": "Evening cultural show with Tharu music and dance (optional).",
+        "overnightStay": "Eco-lodge near the park boundary."
+      },
+      {
+        "day": 2,
+        "destination": "Bardia Jungle Walk",
+        "car": "Max 1",
+        "overnight": "Bardia",
+        "food": "No",
+        "accommodation": "Eco-lodge / Homestay",
+        "journey": "Guided jungle walk through Bardia National Park. Track footprints, observe wildlife like elephants, rhinos, and birds in their natural habitat.",
+        "leisureTime": "Relax by the river or join a birdwatching session.",
+        "overnightStay": "Eco-lodge near the park."
+      },
+      {
+        "day": 3,
+        "destination": "Jeep Safari in Bardia",
+        "car": "4-6",
+        "overnight": "Departure or optional stay",
+        "food": "No",
+        "accommodation": " lodge if extending stay",
+        "journey": "Morning jeep safari through deeper forest zones. Spot Bengal tigers, swamp deer, gharials, and other rare wildlife.",
+        "leisureTime": "Free time to rest or prepare for return trip.",
+        "overnightStay": "Optional: Stay one more night or depart to next destination."
       }
     ]
   }

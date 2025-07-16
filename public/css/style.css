@@ -577,10 +577,10 @@ body {
 .mapboxgl-popup-content {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding: 1.5rem !important;
+  padding: 1.5rem;
   font-size: 1.4rem;
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
 }
 
 .section-reviews {
@@ -684,6 +684,24 @@ body {
 }
 .reviews__star--inactive {
   fill: #bbb;
+}
+
+/* Database stars */
+.reviews__card .reviews__star--active {
+  fill: #445276;
+}
+
+.reviews__card .reviews__star--inactive {
+  fill: #bbb;
+}
+
+/* User input stars */
+.review-form .reviews__star.active {
+  fill: #ffb400;
+}
+
+.review-form .reviews__star.inactive {
+  fill: #ccc;
 }
 
 .section-cta {
@@ -1731,4 +1749,125 @@ body {
   .user-view__content {
     padding: 2rem 0;
   }
+}
+
+/* Itinerary Section Styling */
+
+.itinerary-container {
+  width: 100%;
+  padding: 4rem;
+}
+
+.itinerary-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.itinerary-header {
+  background-color: #2e5077;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.itinerary-header .day {
+  background-color: #51739a;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.itinerary-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.itinerary-details {
+  padding: 15px 20px;
+  color: #333;
+}
+
+.itinerary-details p {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.itinerary-details strong {
+  color: #000;
+}
+
+/*  Itinerary Info Layout (default for Desktop) */
+.itinerary-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.itinerary-info span {
+  flex: 1 1 auto;
+}
+
+/*  For Tablets and smaller (stacked layout) */
+@media screen and (max-width: 768px) {
+  .itinerary-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .itinerary-info span {
+    flex: 1 1 100%;
+    font-size: 1.3rem;
+  }
+
+  .itinerary-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .itinerary-details p {
+    font-size: 1.3rem;
+  }
+}
+
+/*  For Phones (extra small tweaks) */
+@media screen and (max-width: 480px) {
+  .itinerary-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .itinerary-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .itinerary-header .day {
+    font-size: 1.1rem;
+  }
+
+  .itinerary-details p {
+    font-size: 1.2rem;
+  }
+}
+
+.section-itinerary {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+}
+
+.itinerary-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }

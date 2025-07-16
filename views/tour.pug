@@ -62,6 +62,88 @@ block content
       each para in paragraphs
         p.description__text= para
 
+  section.section-itinerary
+    .itinerary-container
+      .itinerary-card
+        .itinerary-header
+          span.day Day 01
+          h2 Pokhara to Tatopani Hot Spring
+        .itinerary-details
+          .itinerary-info
+            span 🚗 Car: 5-6 Hrs
+            span 📍 Overnight: Tatopani
+            span 🍽️ Food: No
+            span 🏨 Accommodation: Guesthouse/Hotel
+          p
+            strong Journey:
+            |  Drive from Pokhara to Tatopani enjoying the riverside and mountain views.
+          p
+            strong Leisure Time:
+            |  Enjoy a relaxing bath at Tatopani Hot Spring.
+          p
+            strong Overnight Stay:
+            |  Hotel in Tatopani.
+
+      .itinerary-card
+        .itinerary-header
+          span.day Day 02
+          h2 Tatopani to Marpha
+        .itinerary-details
+          .itinerary-info
+            span 🚗 Car: 4-5 Hrs 
+            span 📍 Overnight: Marpha
+            span 🍽️ Food: No
+            span 🏨 Accommodation: Guesthouse/Hotel
+          p
+            strong Journey:
+            |  Drive from Tatopani to Marpha, the beautiful apple village.
+          p
+            strong Leisure Time:
+            |  Explore Marpha village, apple orchards, and taste local apple products.
+          p
+            strong Overnight Stay:
+            |  Hotel in Marpha.
+
+      .itinerary-card
+        .itinerary-header
+          span.day Day 03
+          h2 Marpha to Muktinath Temple
+        .itinerary-details
+          .itinerary-info
+            span 🚗 Car: 4 Hrs 
+            span 📍 Overnight: Muktinath
+            span 🍽️ Food: No
+            span 🏨 Accommodation: Guesthouse/Hotel
+          p
+            strong Journey:
+            |  Drive to Muktinath, a sacred pilgrimage site.
+          p
+            strong Leisure Time:
+            |  Visit Muktinath Temple and explore local surroundings.
+          p
+            strong Overnight Stay:
+            |  Hotel near Muktinath.
+
+      .itinerary-card
+        .itinerary-header
+          span.day Day 04
+          h2 Muktinath to Jomsom
+        .itinerary-details
+          .itinerary-info
+            span 🚗 Car: 2-3 Hrs
+            span 📍 Overnight: Jomsom
+            span 🍽️ Food: No
+            span 🏨 Accommodation: Guesthouse/Hotel
+          p
+            strong Journey:
+            |  Drive back to Jomsom, enjoying the scenic mountain drive.
+          p
+            strong Leisure Time:
+            |  Explore Jomsom Bazaar and the banks of Kali Gandaki River.
+          p
+            strong Overnight Stay:
+            |  Hotel in Jomsom.
+
   section.section-pictures
 
     each image, i in tour.images
@@ -71,10 +153,6 @@ block content
   section.section-map
     #map(data-locations=`${JSON.stringify(tour.locations)}`)
 
-  //- section.section-reviews
-  //-   .reviews
-  //-     each review in tour.reviews
-  //-       +reviewCard(review)
   section.section-reviews
     .reviews
       //- each review in tour.reviews
@@ -135,7 +213,7 @@ block content
     }
 
     .reviews__star.active {
-      fill: #ffb400; /* Gold color */
+      fill: #ffb400;
     }
 
     .reviews__star.inactive {
@@ -143,7 +221,7 @@ block content
     }
 
     .reviews__star use {
-      pointer-events: none; /* Let clicks pass through to the parent SVG */
+      pointer-events: none;
     }
 
 
@@ -154,7 +232,7 @@ block content
       const reviewForm = document.getElementById('review-form');
       const ratingInput = document.getElementById('selected-rating');
       const starContainer = document.getElementById('star-rating');
-      
+
       if (writeReviewBtn) {
         writeReviewBtn.addEventListener('click', async () => {
           const tourId = document.querySelector('input[name="tour"]').value;
