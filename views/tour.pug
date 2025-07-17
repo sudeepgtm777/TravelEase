@@ -98,8 +98,6 @@ block content
 
   section.section-reviews
     .reviews
-      //- each review in tour.reviews
-      //-   +reviewCard(review)
 
       if user
         button.btn.btn--green#write-review-btn Write a Review
@@ -123,17 +121,13 @@ block content
                 svg.reviews__star.inactive(data-value=star)
                   use(xlink:href='/img/icons.svg#icon-star', style='pointer-events: none')
 
-
           button.btn.btn--green.mt-2(type='submit') Submit Review
-
 
       else
         a.btn.btn--green(href='/login') Log in to write a review!
 
       each review in tour.reviews
         +reviewCard(review)
-
-
 
   section.section-cta
     .cta
