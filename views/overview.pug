@@ -9,6 +9,10 @@ block content
   .heading-tour
     span Our Tour Packages
 
+  // Recommendations section for logged-in users
+  if user
+    .recommendations-section
+
   main.main
     .card-container
       each tour in tours

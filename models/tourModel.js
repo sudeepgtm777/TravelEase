@@ -107,6 +107,15 @@ const tourSchema = new mongoose.Schema(
         ref: 'User',
       },
     ],
+    // Additional fields for better recommendations
+    tags: {
+      type: [String],
+      default: []
+    },
+    tourType: {
+      type: String,
+      enum: ['adventure', 'cultural', 'nature', 'heritage', 'trekking', 'wildlife', 'spiritual', 'leisure'],
+    }
   },
   {
     toJSON: { virtuals: true },

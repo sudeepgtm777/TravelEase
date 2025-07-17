@@ -1,0 +1,185 @@
+extends base
+
+block content
+  main.main.recommendations-main
+    .recommendations-header
+      .recommendations-header__content
+        h1.recommendations-title
+          span.recommendations-icon 🎯
+          | Personalized Recommendations
+        p.recommendations-subtitle Discover your next adventure with AI-powered suggestions
+    
+    .recommendations-wrapper
+      .recommendations-sidebar
+        .sidebar-card
+          h3.sidebar-title 🎛️ Dashboard
+          ul.sidebar-nav
+            li.sidebar-item
+              a.sidebar-link(href='/me') 
+                span.sidebar-icon 👤
+                | Profile
+            li.sidebar-item
+              a.sidebar-link(href='/my-tours')
+                span.sidebar-icon 🎫
+                | My Bookings
+            li.sidebar-item.sidebar-item--active
+              a.sidebar-link(href='/recommendations')
+                span.sidebar-icon ⭐
+                | Recommendations
+      
+      .recommendations-content
+        if hasBookingHistory && bookingHistory && bookingHistory.length > 0
+          .travel-stats
+            .stats-header
+              h2.stats-title 📊 Your Travel Profile
+              p.stats-subtitle Based on #{bookingHistory.length} tour(s) you've booked
+            
+            .booking-history-modern
+              .history-header
+                h3.history-title 🗺️ Your Adventure History
+              .history-grid
+                each tour in bookingHistory
+                  .history-card
+                    .history-image
+                      img(src=`/img/tours/${tour.imageCover}`, alt=`${tour.name}`)
+                      .history-badge= tour.difficulty
+                    .history-content
+                      h4.history-name= tour.name
+                      .history-stats
+                        .stat-item
+                          span.stat-icon 📅
+                          span= `${tour.duration} days`
+                        .stat-item
+                          span.stat-icon 💰
+                          span= `Rs ${tour.price.toLocaleString()}`
+        else
+          .welcome-section
+            .welcome-card
+              .welcome-icon 🌟
+              h2.welcome-title Welcome to TravelEase!
+              p.welcome-text Since this is your first time, we've curated some amazing tours to get you started on your journey.
+
+        
+        .recommendations-section
+          if recommendations && recommendations.length > 0
+            .recommendations-types
+              - var contentRecs = recommendations.filter(r => r.type === 'content')
+              - var collaborativeRecs = recommendations.filter(r => r.type === 'collaborative')
+              - var popularRecs = recommendations.filter(r => r.type === 'popular')
+              
+              if contentRecs.length > 0
+                .rec-section
+                  .section-header
+                    h2.section-title
+                      span.section-icon 🎯
+                      | Perfect Matches for You
+                    p.section-subtitle Tours that match your preferences
+                  .tours-grid
+                    each rec in contentRecs.slice(0, 4)
+                      .tour-card-modern
+                        .tour-image
+                          img(src=`/img/tours/${rec.tour.imageCover}`, alt=`${rec.tour.name}`)
+                          .match-score= `${Math.round(rec.similarity * 100)}% match`
+                        .tour-content
+                          h3.tour-name= rec.tour.name
+                          p.tour-description= rec.tour.summary.substring(0, 100) + '...'
+                          .tour-stats
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 🏔️
+                                span= rec.tour.difficulty
+                              .stat-item
+                                span.stat-icon 📅
+                                span= `${rec.tour.duration} days`
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 👥
+                                span= `${rec.tour.maxGroupSize} people`
+                              .stat-item
+                                span.stat-icon ⭐
+                                span= `${rec.tour.ratingsAverage}/5`
+                          .tour-footer
+                            .price-section
+                              span.price= `Rs ${rec.tour.price.toLocaleString()}`
+                              span.price-text per person
+                            a.btn-modern(href=`/tour/${rec.tour.slug}`) View Details
+              
+              if collaborativeRecs.length > 0
+                .rec-section
+                  .section-header
+                    h2.section-title
+                      span.section-icon 👥
+                      | Loved by Similar Travelers
+                    p.section-subtitle Tours recommended by users with similar taste
+                  .tours-grid
+                    each rec in collaborativeRecs.slice(0, 4)
+                      .tour-card-modern.tour-card--collaborative
+                        .tour-image
+                          img(src=`/img/tours/${rec.tour.imageCover}`, alt=`${rec.tour.name}`)
+                          .collab-badge Highly Rated
+                        .tour-content
+                          h3.tour-name= rec.tour.name
+                          p.tour-description= rec.tour.summary.substring(0, 100) + '...'
+                          .tour-stats
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 🏔️
+                                span= rec.tour.difficulty
+                              .stat-item
+                                span.stat-icon 📅
+                                span= `${rec.tour.duration} days`
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 👥
+                                span= `${rec.tour.maxGroupSize} people`
+                              .stat-item
+                                span.stat-icon ⭐
+                                span= `${rec.tour.ratingsAverage}/5`
+                          .tour-footer
+                            .price-section
+                              span.price= `Rs ${rec.tour.price.toLocaleString()}`
+                              span.price-text per person
+                            a.btn-modern.btn-modern--secondary(href=`/tour/${rec.tour.slug}`) View Details
+              
+              if popularRecs.length > 0
+                .rec-section
+                  .section-header
+                    h2.section-title
+                      span.section-icon 🔥
+                      | Trending Adventures
+                    p.section-subtitle Most popular tours among all travelers
+                  .tours-grid
+                    each rec in popularRecs.slice(0, 4)
+                      .tour-card-modern.tour-card--popular
+                        .tour-image
+                          img(src=`/img/tours/${rec.tour.imageCover}`, alt=`${rec.tour.name}`)
+                          .popular-badge Trending
+                        .tour-content
+                          h3.tour-name= rec.tour.name
+                          p.tour-description= rec.tour.summary.substring(0, 100) + '...'
+                          .tour-stats
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 🏔️
+                                span= rec.tour.difficulty
+                              .stat-item
+                                span.stat-icon 📅
+                                span= `${rec.tour.duration} days`
+                            .stat-row
+                              .stat-item
+                                span.stat-icon 👥
+                                span= `${rec.tour.maxGroupSize} people`
+                              .stat-item
+                                span.stat-icon ⭐
+                                span= `${rec.tour.ratingsAverage}/5`
+                          .tour-footer
+                            .price-section
+                              span.price= `Rs ${rec.tour.price.toLocaleString()}`
+                              span.price-text per person
+                            a.btn-modern.btn-modern--accent(href=`/tour/${rec.tour.slug}`) View Details
+          else
+            .no-recommendations-modern
+              .no-rec-icon 🎯
+              h3.no-rec-title No Personalized Recommendations Yet
+              p.no-rec-text Book your first tour to unlock personalized recommendations powered by AI!
+              a.btn-modern.btn-modern--large(href='/') Explore All Tours

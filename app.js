@@ -18,6 +18,7 @@ const reviewRouter = require('./routes/reviewRoute');
 const bookingRouter = require('./routes/bookingRoute');
 const viewRouter = require('./routes/viewRoutes');
 const chatRouter = require('./routes/chatbotRoutes'); // Make sure this path is correct
+const recommendationRouter = require('./routes/recommendationRoutes');
 
 const app = express();
 
@@ -103,6 +104,7 @@ app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/bookings', bookingRouter);
+app.use('/api/v1/recommendations', recommendationRouter);
 app.use('/api/v1/chat', chatRouter); // This MUST be before app.all('*')
 
 // 3. Catch-all for undefined routes (This MUST be the LAST route handler)
