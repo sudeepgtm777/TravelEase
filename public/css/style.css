@@ -396,9 +396,9 @@ body {
   display: block;
   margin-bottom: 0.6rem;
   text-decoration: none;
-  transition:
+  /* transition:
     background var(--transition),
-    color var(--transition);
+    color var(--transition); */
 }
 .side-nav a:hover {
   background: var(--primary-light);
@@ -446,8 +446,8 @@ body {
   bottom: 13vw;
   left: 50%;
   top: 35%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 .heading-box__group {
   color: #f7f7f7;
@@ -1571,6 +1571,7 @@ body {
   .nav__el:visited {
     font-size: 1.5rem;
   }
+
   .nav--user {
     flex-direction: row;
     align-items: baseline;
