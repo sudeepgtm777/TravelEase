@@ -63,7 +63,7 @@ module.exports = class Email {
 
   // The use of this function is to call send() which has wider uses.
   async sendWelcome() {
-    await this.send('Welcome', 'Welcome to the natours!!');
+    await this.send('Welcome', 'Welcome to the TravelEase!!');
   }
 
   async sendPasswordReset() {

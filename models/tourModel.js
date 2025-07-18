@@ -120,6 +120,23 @@ const tourSchema = new mongoose.Schema(
         overnightStay: String,
       },
     ],
+    tags: {
+      type: [String],
+      default: [],
+    },
+    tourType: {
+      type: String,
+      enum: [
+        'adventure',
+        'cultural',
+        'nature',
+        'heritage',
+        'trekking',
+        'wildlife',
+        'spiritual',
+        'leisure',
+      ],
+    },
   },
   {
     toJSON: { virtuals: true },
