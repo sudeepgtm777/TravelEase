@@ -36,11 +36,6 @@ export const displayMap = (locations) => {
   });
 
   map.fitBounds(bounds, {
-    padding: {
-      top: 200,
-      bottom: 150,
-      left: 100,
-      right: 100,
-    },
+    padding: { top: 300, bottom: 300, left: 300, right: 300 },
   });
 };

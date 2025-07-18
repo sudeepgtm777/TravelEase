@@ -3,6 +3,7 @@ import { displayMap } from './mapbox';
 import { login, signup, logout } from './authentication';
 import { updateSettings } from './updateSettings';
 import { bookTour } from './stripe';
+import { displayRecommendationsOnOverview } from './recommendations';
 
 // DOM elements
 const mapBox = document.getElementById('map');
@@ -76,10 +77,18 @@ if (userPasswordForm)
     document.getElementById('password-confirm').value = '';
   });
 
-if (bookBtn)
+if (bookBtn) {
   bookBtn.addEventListener('click', (e) => {
-    e.target.textContent = 'Processing';
+    e.target.textContent = 'Processing...';
     const { tourId } = e.target.dataset;
-    console.log(tourId);
     bookTour(tourId);
   });
+}
+
+// Load recommendations on overview page for logged-in users
+if (
+  document.querySelector('.overview') &&
+  document.querySelector('.nav__user-img')
+) {
+  displayRecommendationsOnOverview();
+}

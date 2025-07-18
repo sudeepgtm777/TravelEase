@@ -38,10 +38,9 @@ const sendErrorDev = (err, req, res) => {
 
   // Rendered website error response
   console.error('ERROR', err);
-  return res.status(err.statusCode).render('signup', {
+  return res.status(err.statusCode).render('error', {
     title: 'Something went wrong!',
-    error: err.message,
-    formData: req.body,
+    msg: err.message,
   });
 };
 
@@ -63,19 +62,17 @@ const sendErrorProd = (err, req, res) => {
 
   // Rendered website (like signup form)
   if (err.isOperational) {
-    return res.status(err.statusCode).render('signup', {
-      title: 'Signup Error',
-      error: err.message,
-      formData: req.body,
+    return res.status(err.statusCode).render('error', {
+      title: 'Something went wrong!',
+      msg: err.message,
     });
   }
 
   // Unknown error
   console.error('ERROR', err);
-  return res.status(500).render('signup', {
+  return res.status(500).render('error', {
     title: 'Something went wrong!',
-    error: 'Please try again later.',
-    formData: req.body,
+    msg: 'Please try again later.',
   });
 };
 

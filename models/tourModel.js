@@ -107,6 +107,36 @@ const tourSchema = new mongoose.Schema(
         ref: 'User',
       },
     ],
+    itinerary: [
+      {
+        day: Number,
+        destination: String,
+        car: String,
+        overnight: String,
+        food: String,
+        accommodation: String,
+        journey: String,
+        leisureTime: String,
+        overnightStay: String,
+      },
+    ],
+    tags: {
+      type: [String],
+      default: [],
+    },
+    tourType: {
+      type: String,
+      enum: [
+        'adventure',
+        'cultural',
+        'nature',
+        'heritage',
+        'trekking',
+        'wildlife',
+        'spiritual',
+        'leisure',
+      ],
+    },
   },
   {
     toJSON: { virtuals: true },
