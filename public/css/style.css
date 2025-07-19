@@ -407,7 +407,24 @@ body {
 
 .section-header {
   position: relative;
-  height: 15vw;
+  height: 38vw;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--section-rotate)),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--section-rotate)),
+    0 100%
+  );
+}
+.section-header-recommendation {
+  position: relative;
+  text-align: center;
+  height: 12vw;
   clip-path: polygon(
     0 0,
     100% 0,

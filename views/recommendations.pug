@@ -66,10 +66,10 @@ block content
               - var contentRecs = recommendations.filter(r => r.type === 'content')
               - var collaborativeRecs = recommendations.filter(r => r.type === 'collaborative')
               - var popularRecs = recommendations.filter(r => r.type === 'popular')
-              
+
               if contentRecs.length > 0
                 .rec-section
-                  .section-header
+                  .section-header-recommendation
                     h2.section-title
                       span.section-icon 🎯
                       | Perfect Matches for You
@@ -103,10 +103,10 @@ block content
                               span.price= `Rs ${rec.tour.price.toLocaleString()}`
                               span.price-text per person
                             a.btn-modern(href=`/tour/${rec.tour.slug}`) View Details
-              
+
               if collaborativeRecs.length > 0
                 .rec-section
-                  .section-header
+                  .section-header-recommendation
                     h2.section-title
                       span.section-icon 👥
                       | Loved by Similar Travelers
@@ -143,7 +143,7 @@ block content
               
               if popularRecs.length > 0
                 .rec-section
-                  .section-header
+                  .section-header-recommendation
                     h2.section-title
                       span.section-icon 🔥
                       | Trending Adventures
