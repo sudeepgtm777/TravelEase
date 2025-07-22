@@ -257,7 +257,7 @@ block content
             container: 'map',
             style: maptilersdk.MapStyle.STREETS,
             center: [firstLoc.coordinates[0], firstLoc.coordinates[1]], // [lng, lat]
-            zoom: 10 // City-level zoom
+            zoom: 5// City-level zoom
           });
 
           // Add markers for all locations
@@ -274,7 +274,7 @@ block content
             locations.forEach(loc => {
               bounds.extend([loc.coordinates[0], loc.coordinates[1]]);
             });
-            map.fitBounds(bounds, { padding: 50 });
+            map.fitBounds(bounds, { padding: 200 });
           }
         }
       }
