@@ -164,7 +164,7 @@ block content
 
 
   script.
-      document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
       const writeReviewBtn = document.getElementById('write-review-btn');
       const reviewForm = document.getElementById('review-form');
       const ratingInput = document.getElementById('selected-rating');
@@ -191,7 +191,6 @@ block content
           }
         });
       }
-
 
       if (starContainer) {
         starContainer.addEventListener('click', (e) => {
@@ -243,6 +242,41 @@ block content
             alert('Successful!!!');
           }
         });
+      }
+
+      // MapTiler map initialization - Auto zoom to tour locations
+      const mapEl = document.getElementById('map');
+      if (mapEl) {
+        const locations = JSON.parse(mapEl.dataset.locations);
+        
+        if (locations && locations.length > 0) {
+          // Use the first location as the default center
+          const firstLoc = locations[0];
+          
+          const map = new maptilersdk.Map({
+            container: 'map',
+            style: maptilersdk.MapStyle.STREETS,
+            center: [firstLoc.coordinates[0], firstLoc.coordinates[1]], // [lng, lat]
+            zoom: 10 // City-level zoom
+          });
+
+          // Add markers for all locations
+          locations.forEach(loc => {
+            new maptilersdk.Marker()
+              .setLngLat([loc.coordinates[0], loc.coordinates[1]])
+              .setPopup(new maptilersdk.Popup().setHTML(`<h3>${loc.description}</h3><p>Day ${loc.day}</p>`))
+              .addTo(map);
+          });
+
+          // If multiple locations, fit map to show all
+          if (locations.length > 1) {
+            const bounds = new maptilersdk.LngLatBounds();
+            locations.forEach(loc => {
+              bounds.extend([loc.coordinates[0], loc.coordinates[1]]);
+            });
+            map.fitBounds(bounds, { padding: 50 });
+          }
+        }
       }
     });
 

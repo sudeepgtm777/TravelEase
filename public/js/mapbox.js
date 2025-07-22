@@ -3,7 +3,7 @@ export const displayMap = (locations) => {
   var map = new maptilersdk.Map({
     container: 'map', // container's id or the HTML element to render the map
     style: 'basic-v2',
-    scrollZoom: false,
+    scrollZoom: true,
     //   center: [-118.113491, 34.111745], // starting position [lng, lat]
     //   zoom: 4, // starting zoom
   });
