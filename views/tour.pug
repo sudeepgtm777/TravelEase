@@ -121,10 +121,10 @@ block content
                 svg.reviews__star.inactive(data-value=star)
                   use(xlink:href='/img/icons.svg#icon-star', style='pointer-events: none')
 
-          button.btn.btn--green.mt-2(type='submit') Submit Review
+          button.btnl.btn--green.mt-2(type='submit') Submit Review
 
       else
-        a.btn.btn--green(href='/login') Log in to write a review!
+        a.btnl.btn--green(href='/login') Log in to write a review!
 
       each review in tour.reviews
         +reviewCard(review)

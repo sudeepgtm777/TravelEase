@@ -3,18 +3,15 @@ header.header
         a(href='/')
             img(src='/img/logo.png', alt='*TravelEase Logo*')
 
-    // Hamburger for mobile
-    .header__toggle.js--nav-toggle
-        span
-        span
-        span
-
     nav.nav.nav--tours
         a.nav__el(href='/') All tours
 
     nav.nav.nav--user
         if user
-            a.nav__el(href='/recommendations') Recommendations
+            //- a.nav__el(href='/recommendations') Recommendations
+            a.nav__el(href='/recommendations')
+                span.nav__text-full Recommendations
+                span.nav__text-short Rec
             a.nav__el.nav__el--logout(href='/logout') Log Out
             a.nav__el(href='/me')
                 img.nav__user-img(src=`/img/users/${user.photo}`, alt=`Photo of the User(${user.name})`)
