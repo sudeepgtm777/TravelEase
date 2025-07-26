@@ -4,7 +4,7 @@
 
 ## Overview
 
-I have successfully implemented a **Jaccard Similarity-based recommendation system** for the TravelEase travel booking platform. This system provides personalized tour recommendations using two main approaches:
+ The algorithm  successfully implemented a **Jaccard Similarity-based recommendation system** for the TravelEase travel booking platform. This system provides personalized tour recommendations using two main approaches:
 
 ### 1. Content-Based Filtering
 
