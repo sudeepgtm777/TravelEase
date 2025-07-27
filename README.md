@@ -18,22 +18,6 @@
 - Recommends tours that similar users have booked
 - Uses Jaccard Index to measure user similarity
 
-## Implementation Details
-
-### Core Components Created:
-
-1. **`utils/jaccardRecommendation.js`** - Core recommendation algorithms
-2. **`controllers/recommendationController.js`** - API endpoints for recommendations
-3. **`routes/recommendationRoutes.js`** - Routes for recommendation APIs
-4. **`views/recommendations.pug`** - Dedicated recommendations page
-5. **`public/js/recommendations.js`** - Frontend JavaScript for recommendations
-6. **CSS styles** - Styling for recommendation components
-
-### API Endpoints:
-
-- `GET /api/v1/recommendations` - Get user recommendations (JSON)
-- `GET /api/v1/recommendations/stats` - Get user booking statistics
-- `GET /recommendations` - Recommendations page (HTML)
 
 ### How Jaccard Similarity Works:
 
