@@ -26,6 +26,10 @@ const createSendToken = (user, statusCode, req, res) => {
   // Remove password from output
   user.password = undefined;
 
+  if (req.headers.accept && req.headers.accept.includes('text/html')) {
+    return res.redirect('/');
+  }
+
   res.status(statusCode).json({
     status: 'success',
     token,
@@ -42,8 +46,8 @@ exports.signup = catchAsync(async (req, res, next) => {
     password: req.body.password,
     passwordConfirm: req.body.passwordConfirm,
   });
-  const url = `${req.protocol}://${req.get('host')}/me`;
-  await new Email(newUser, url).sendWelcome();
+  // const url = `${req.protocol}://${req.get('host')}/me`;
+  // await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, req, res);
 });
