@@ -142,7 +142,7 @@ body {
 
 .heading-tour {
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .heading-tour span {
@@ -381,6 +381,14 @@ body {
   box-shadow: var(--card-shadow);
   padding: 2.5rem 2rem;
   margin-bottom: 3rem;
+}
+
+.recommendations-section:empty {
+  display: none;
+}
+
+.main--overview {
+  padding: 2rem 6rem 8rem;
 }
 .heading-secondary {
   color: var(--primary-dark);
@@ -1688,6 +1696,9 @@ body {
   }
   .main {
     padding: 4rem 3rem;
+  }
+  .main--overview {
+    padding: 2rem 3rem 4rem;
   }
   .card-container {
     display: flex;
